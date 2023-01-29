@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Portofolio</string>
+
+    <string name="info">a student currently studying in Universitas Pelita Harapan Medan Campus</string>
+    <string name="born">Born:</string>
+    <string name="name">Name</string>
+    <string name="jian_jeraus_young">JIAN JERAUS YOUNG</string>
+    <string name="major">Major</string>
+    <string name="information_systems">INFORMATION SYSTEMS</string>
+    <string name="student_id">Student ID</string>
+    <string name="_03081210009">03081210009</string>
+    <string name="intake">Intake</string>
+    <string name="_2021">2021</string>
+    <string name="experiences">EXPERIENCES</string>
+    <string name="student_association_of_information_systems_study_program_2022_2023">STUDENT ASSOCIATION OF INFORMATION SYSTEMS STUDY PROGRAM 2022/2023</string>
+    <string name="president">President</string>
+    <string name="ambassadors_of_uph_medan_campus_2022">AMBASSADORS OF UPH MEDAN CAMPUS 2022</string>
+    <string name="second_runner_up">Second Runner Up</string>
+    <string name="gracious_quest">GRACIOUS QUEST</string>
+    <string name="head_of_committee">Head of Committee</string>
+    <string name="ambassadors_of_uph_medan_campus_2023">AMBASSADORS OF UPH MEDAN CAMPUS 2023</string>
+    <string name="vice_project_manager">Vice Project Manager</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="name2">Name</string>
+    <string name="major2">Major</string>
+    <string name="student_id2">Student ID</string>
+    <string name="intake2">Intake</string>
+    <string name="info2">Info</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+</resources>

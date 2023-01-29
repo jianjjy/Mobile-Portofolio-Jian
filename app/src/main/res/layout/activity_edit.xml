@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".EditActivity">
+
+
+
+        <TextView
+            android:id="@+id/txtEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8px"
+            android:fontFamily="@font/argentineopti"
+            android:text="@string/edit_profile"
+            android:textAlignment="center"
+            android:textColor="@color/gold"
+            android:textSize="64px">
+
+        </TextView>
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEdit"
+        android:layout_gravity="start"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="60px"
+        android:backgroundTint="@color/gold"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:inputType="textPersonName"
+        android:text="@string/name2"
+        android:textColor="@color/white">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_gravity="start"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="60px"
+        android:backgroundTint="@color/gold"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:inputType="textPersonName"
+        android:text="@string/major2"
+        android:textColor="@color/white">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_marginTop="60px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editMajor"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTextPersonName"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="60px"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gold"
+            android:ems="10"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="textPersonName"
+            android:text="@string/student_id2"
+            android:textColor="@color/white">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editIntake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEdit"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="60px"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gold"
+            android:ems="10"
+            android:fontFamily="@font/poppinsmedium"
+            android:inputType="textPersonName"
+            android:text="@string/intake2"
+            android:textColor="@color/white">
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_gravity="start"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="60px"
+        android:backgroundTint="@color/gold"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:inputType="textPersonName"
+        android:text="@string/info2"
+        android:textColor="@color/white">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_marginTop="60px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editInfo"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maincol"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="30px"
+            android:layout_marginTop="40px"
+            android:background="@color/gold"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="@string/submit"
+            android:textColor="@color/black">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maincol"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40px"
+            android:background="@color/black"
+            android:textColor="@color/gold"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="@string/cancel"
+
+            android:layout_marginHorizontal="30px">
+        </Button>
+
+
+    </LinearLayout>
+</RelativeLayout>
