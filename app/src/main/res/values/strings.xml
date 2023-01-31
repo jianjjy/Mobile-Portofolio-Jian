@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Portofolio</string>
+    <string name="app_name">ProDuktiv</string>
 
     <string name="info">a student currently studying in Universitas Pelita Harapan Medan Campus</string>
     <string name="born">Born:</string>
@@ -28,4 +28,5 @@
     <string name="info2">Info</string>
     <string name="cancel">Cancel</string>
     <string name="submit">Submit</string>
+    <string name="profil">Profil</string>
 </resources>
